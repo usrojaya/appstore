@@ -1,0 +1,454 @@
+ /* Generic styling */
+*, body, html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+    main {
+      padding-top: 50px;
+    }
+    /*color*/
+      .col {
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .col .bg-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .col img {
+           width: 80px; 
+           height: 80px;
+        }
+        .col .bg-textName {
+            padding: 8px;
+            padding-bottom: 0px;
+            
+        }
+        .col span {
+            text-size: 10px;
+        }
+        
+        .list-group-item{
+            width: 100%;
+        }
+        
+        /*Sidebar*/
+        .offcanvas-header img{
+            width: 35px;
+            height: 35px;
+        }
+        
+        /*icon*/
+    
+    
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; 
+  transition: top 0.3s;
+  display: none;
+}
+
+#footer {
+        display: none;
+}
+
+.animate-from-bottom {
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.animate-from-bottom.show {
+  transform: translateY(0);
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+        /*code*/
+        pre {
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  overflow: auto;
+  max-height: 250px;
+  
+}
+
+pre #code {
+    color: salmon;
+  padding: 20px;
+  line-height: 1.6;
+  overflow: auto;
+  overflow-anchor: none; /* Disable default scroll anchoring */
+  color: #fff; /* Warna teks */
+    background-size: 100% 200%; /* Sesuaikan ukuran gradien */
+/*  animation: shine 3s infinite linear; /* Animasi efek kilau */
+}
+
+    .my-card-hero{
+        border-radius: 0px;
+        padding: 0px;
+        margin: 0px;
+        overflow: scroll;
+    
+    }
+
+/*Login*/
+.container-Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-Login {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  text-align: center;
+}
+
+.modal span {
+  color: #007BFF;
+  margin-left: 25px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+.login-modal {
+width: 80%;
+left: 10%;
+}
+.forgot-modal {
+width: 80%;
+10%
+}
+.upload-modal {
+    width: 80%;
+    left: 10%;
+}
+.register-modal {
+    width: 80%;
+    left: 10%;
+}
+.loading {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: transparent;
+ padding-top: 10px;
+}
+ label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+ input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ .switch {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.switch a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*And Login*/
+
+/*Start Code snipet*/
+.header-code {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20 30;
+  
+}
+
+.fa-clone {
+      color: black;
+}
+.fa-user {
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+}
+.ic {
+ display: flex; 
+ align-items: center;
+}
+
+.fa.fa-sign-out {
+    font-size: 20px;
+   padding: 0 20px;
+}
+.margin {
+    left: -100px;
+}
+#showDataUser ul li{
+ width: 80%;   
+}
+/*And code snipet*/
+
+
+    .footer-container{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    overflow: hidden;
+    }
+    .footer-container .list-footer{
+      width: 100%;
+      height: 100%;
+     text-align: center;
+     border: 1px solid white;
+    }
+    
+
+
+
+/*FOOTER*/
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #333;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+
+footer .container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+
+
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.emailSub {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+.emailSubmit {
+    color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+
+
+/*Prpggress*/
+#upload-progress {
+  background: linear-gradient(90deg, #00ff00, #ff0000);
+  background-size: 200% 100%;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
+
+/*play project*/
+
+.play-project-card .card-bg-img-play {
+ display: flex;  
+ flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('logos.png');
+  background-size: cover;
+}
+
+.card-bg-img-play img {
+    width: 80%;
+    height 80%;
+    
+}
+
+.custom-card-body button {
+    margin:0 50; /* Atur margin kanan sesuai keinginan Anda */
+}
+
+
+
+/*rating bar*/
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 18px;
+}
+
+.fa.checked {
+  color: orange;
+}
+
+
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+
+/*anim*/
+@media screen and (max-width: 767px) {
+        .anim {
+            display: block; /* Tampilkan elemen di perangkat mobile */
+        }
+
+        /* Atau, jika Anda ingin mengubah lebar elemen di perangkat mobile */
+        .anim {
+            width: 100%; /* Sesuaikan lebar sesuai kebutuhan Anda */
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .anim {
+            display: none; /* Sembunyikan elemen di desktop */
+        }
+    }
+    
